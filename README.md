@@ -54,3 +54,4 @@ For any inquiries or feedback, feel free to reach out:
 - **Email:** [FgsDeve@gmail.com](mailto:FgsDeve@gmail.com)
 - **LinkedIn:** [Franc Garcia](https://www.linkedin.com/in/francggarcia/)
 - **GitHub:** [fgsdeve](https://github.com/fgsdeve)
+- **Project deployed:** [My Portfolio](https://myportfollii0.netlify.app/)
