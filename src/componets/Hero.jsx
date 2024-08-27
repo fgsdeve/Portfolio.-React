@@ -30,7 +30,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="bg-gradient-to-r from-cyan-400 via-teal-500 to-purple-600 
-                bg-clip-text text-4xl tracking-tight text-transparent"
+                bg-clip-text text-4xl tracking-tight text-transparent text-center lg:text-left"
             >
               Full Stack Developer
             </motion.span>
@@ -44,7 +44,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 ">
           <div className="flex justify-center lg:justify-end">
             <motion.img
               variants={container(1.1)}  // Adjusted delay
@@ -52,7 +52,7 @@ const Hero = () => {
               animate="visible"
               src={profilePic}
               alt="Franc Garcia"
-              className="rounded-2xl w-full h-auto max-w-sm lg:max-w-md"
+              className="rounded-2xl w-full h-auto max-w-md lg:max-w-lg "
             />
           </div>
         </div>

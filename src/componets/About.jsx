@@ -13,14 +13,18 @@ const About = () => {
         </span>
       </h2>
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 mb-8 lg:mb-0">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1.5}}
-            className="flex items-center justify-center size-[30rem]"
+            transition={{ duration: 1.5 }}
+            className="flex items-center justify-center"
           >
-            <img className="	rounded-2xl" src={AboutMe} alt="AboutMe" />
+            <img
+              className="rounded-2xl w-full max-w-sm lg:max-w-full"
+              src={AboutMe}
+              alt="AboutMe"
+            />
           </motion.div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -28,9 +32,9 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1.5 }}
-            className="flex items-center justify-center w-full max-w-[30rem] mx-auto"
+            className="flex items-center justify-center lg:justify-start lg:pl-40 "
           >
-            <p className="my-2 max-w-xl py-6 pt-8 font-light tracking-tighter text-lg">
+            <p className="my-2 py-6 pt-8 font-light tracking-tighter text-lg text-center lg:text-left ">
               {ABOUT_TEXT}
             </p>
           </motion.div>
