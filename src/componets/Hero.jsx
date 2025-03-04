@@ -32,7 +32,7 @@ const Hero = () => {
               className="bg-gradient-to-r from-cyan-400 via-teal-500 to-purple-600 
                 bg-clip-text text-4xl tracking-tight text-transparent text-center lg:text-left"
             >
-              Full Stack Developer
+              Front-End Developer | Software Engineer
             </motion.span>
             <motion.p
               variants={container(0.9)}  // Adjusted delay

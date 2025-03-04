@@ -6,52 +6,52 @@ import project5 from "../projects/project-5.webp";
 import project6 from "../projects/project-6.webp";
 
 export const HERO_CONTENT = 
-`I am a Full Stack Developer with a strong ability to align technical solutions with business goals, 
-driving efficiency and user satisfaction. I excel in optimizing performance, 
-enhancing user experiences, and collaborating with cross-functional teams to deliver impactful projects.
- `
+`I’m a Software Engineer passionate about building fast, user-friendly web applications. I specialize in front-end development, optimizing performance, and collaborating with teams to turn ideas into seamless digital experiences.
 
-export const ABOUT_TEXT = `
-I bring a versatile skill set, with a deep understanding of business culture and needs, gained from managing businesses across Europe. Multilingual and adept at quickly mastering new technologies, I excel at delivering innovative solutions that align with strategic goals and drive impactful results.
+Strong problem-solving, adaptability, and teamwork are my superpowers—because let’s be honest, debugging is just an extreme puzzle game. Let’s build something great (and keep the bugs to a minimum)!
+`
 
-
+export const ABOUT_TEXT = `I bring a multifaceted skill set, having worked with businesses across Europe, and I know how to adapt quickly to new challenges. Fluent in multiple languages, I’ve mastered the art of blending tech with business needs to create solutions that actually make a difference. Let’s face it, it’s all about finding the right balance between tech and people, right?
 `;
 export const experience = [
   {
-    title: "Junior Software Developer | Full Stack Developer ",
-    company: "Personal Projects",
-    location: "Austin, Texas Metropolitan Area",
-    duration: "Jan 2024 - Present",
+    title: "AI Training Specialist | Freelancer ",
+    company: "Outlier",
+    location: "Austin, TX",
+    duration: "Jun 2024 - Present",
     responsibilities: [
-      "Designed and developed multiple full-stack web applications, demonstrating a strong ability to quickly learn and adapt to new technologies.",
-      "Created responsive and user-friendly interfaces with React, ensuring optimal performance across various devices.",
-      "Enhanced application efficiency by implementing performance optimizations, leading to faster load times and smoother user experiences.",
-      "Integrated third-party APIs, including Google Books API, to extend application functionality and improve user engagement.",
-      "Independently managed project timelines, from initial concept through deployment, ensuring high-quality deliverables.",
+      "Performed comprehensive code reviews and amendments, enhancing accuracy by 95% and notably reducing errors, showcasing strong problem-solving skills.",
+      "Developed efficient fact-checking processes , reducing fact-checking time by 40% and increasing productivity by 25%.",
+      "Implemented rigorous proof reading and review processes , achieving a 99% correction rate for spelling mistakes and improving overall text quality.",
+      "Conducted thorough property reviews and corrections, resulting in a 92% improvement in property accuracy and a significant reduction in errors.",
+      "Did comprehensive reviews and corrections, resulting in a 90% improvement in overall quality and a significant reduction in errors and inaccuracies.",
     ],
-    technologies: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "SQL",
-    ],
+    
   },
   {
     title:
-      "Luxury Team Director | Customer Experience | Sales Optimization Specialist",
+      "Customer Success Manager",
     company: "Estee Lauder Companies Europe",
     location: "Stockholm, Sweden",
-    duration: "January 2016 - December 2021",
+    duration: "Nov 2017 – Marc 2022",
     responsibilities: [
-      "Aligned customer experience initiatives with marketing campaigns, resulting in a 40% annual sales increase.",
-      "Enhanced customer satisfaction by 35% through a comprehensive feedback system.",
-      "Led a diverse team to a 50% productivity increase by introducing team-building workshops and performance reviews.",
-      "Developed a comprehensive onboarding program with modules on luxury product knowledge, sales techniques, and communication skills.",
-      "Navigated international business cultures to streamline operations and enhance cross-cultural communication.",
+      "Devised strategic account plans addressing customer needs, boosting adoption and expansion by 45% year on year.",
+      "Increased customer retention by 75% with varied customer service strategies.",
+      "Boosted customer satisfaction by 90% through the implementation of mitigation strategies for technical and delivery issues.",
+      "Managed and optimized product solutions to enhance customer satisfaction and loyalty by 30%.",
+      "Led collaborative efforts with marketing, sales, and operations teams to align with customer goals.",
+    ],
+  },
+  {
+    title: "Customer Success Associate ",
+    company: "Estee Lauder Companies Europe",
+    location: "Helsinki, Finland",
+    duration: " Jan 2016 – Nov  2017",
+    responsibilities: [
+      "Led improvements in customer experience, boosting business value and brand reputation by 35%.",
+      "Directed team collaboration to align marketing, sales, and operations with customer objectives.",
+      "Used storytelling techniques to effectively communicate complex product features, resulting in a 65% boost in customer satisfaction and loyalty.",
+      "Leveraged relationship-building expertise to establish long-term partnerships with key clients, driving a 75% increase in customer loyalty.",
     ],
   },
   {
@@ -60,34 +60,23 @@ export const experience = [
     location: "Helsinki, Finland",
     duration: "January 2015 - December 2015",
     responsibilities: [
-      "Utilized Salesforce CRM to monitor performance and identify new business opportunities, contributing to a 25% increase in lead conversion.",
-      "Improved client retention by 20% through personalized sales and marketing strategies.",
-      "Secured new business opportunities, leading to a 15% revenue growth.",
-      "Analyzed customer data using data mining tools, increasing campaign effectiveness by 30%.",
-    ],
-  },
-  {
-    title: "Refugee Coordinator",
-    company: "City of Helsinki, Social Affairs Office",
-    location: "Helsinki, Finland",
-    duration: "May 2008 - January 2012",
-    responsibilities: [
-      "Coordinated national asylum seeker programs, ensuring efficient processes and compliance with regulations.",
-      "Provided support, guidance, and instruction to refugees on legal processes and community integration.",
-      "Established new processes to ease refugee assimilation in Finland, improving access to essential services.",
+      "Optimized customer experience using CRM tools (Salesforce, HubSpot), driving a 20% increase in contract renewals and overall customer success.",
+      "Anticipated customer needs and proactively addressed risks, ensuring smooth service delivery and alignment with business goals.",
+      "Facilitated cross-functional collaboration between sales, operations, and marketing teams to enhance customer outcomes and streamline go to market strategies.",
+      "Executed strategic marketing and sales initiatives, increasing client engagement and improving customer health scores",
     ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Rent-Ride",
+    title: "Rent-Ride (Full-Stack Car Rental App - Group Project)",
     Image: project1,
     description: [
-      "Built a full-stack car rental app using React, Node.js, Express, and MongoDB.",
-      "Integrated GraphQL and Apollo Client for secure bookings.",
-      "Improved load times by 20%.",
-      "Focused on optimizing user experience and performance for scalable usage.",
+      "Developed a full-stack car rental application using React, Node.js, Express, and MongoDB.",
+      "Integrated GraphQL and Apollo Client to enable secure and efficient booking management.",
+      "Optimized application performance, reducing load times by 20% for a smoother user experience.",
+      "Focused on UI/UX enhancements and scalability to ensure seamless usability across devices.",
     ],
     technologies: [
       "React",
@@ -194,7 +183,7 @@ export const PROJECTS = [
   },
 ];
 export const CONTACT = {
-  address: "Pflugerville, TX, USA ",
+  address: "Birmingham, AL",
   phoneNo: "+1 (512) 767-4062",
   email: "FgsDeve@gmail.com",
 }

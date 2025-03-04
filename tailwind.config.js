@@ -11,7 +11,8 @@ export default {
       'contain': 'contain',
       '50%': '50%',
       '16': '4rem',
-    }
+    },
+
 },
   plugins: [],
 }
